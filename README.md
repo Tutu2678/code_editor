@@ -1,12 +1,22 @@
-# React + Vite
+# CodeIt - Multi-language Online Code Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeIt is a lightweight, client-side code editor that supports multiple programming languages using the Piston API for real-time code execution.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[Click here to try it out!](https://code-editor-one-sigma.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** Vite + React
+- **Styling:** Tailwind CSS + DaisyUI
+- **Code Editor:** Monaco Editor
+- **API:** [Piston API](https://github.com/engineer-man/piston)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 📝 Monaco editor with syntax highlighting
+- 🎨 Theme toggle for editor and UI (supports DaisyUI themes)
+- 🧪 Input/output panels with test case support
+- 💾 Auto-save code using `localStorage`
+- 🔓 Skip login or enter a username for session personalization
+- 🛠 Supports multiple programming languages
