@@ -221,6 +221,7 @@ export default function Editor() {
             className="textarea textarea-bordered flex-grow bg-base-100 text-base-content"
             value={stdin}
             onChange={(e) => setStdin(e.target.value)}
+            placeholder="Enter all input here with each input separated by a newline"
           />
 
           <label className="font-semibold">Output:</label>
